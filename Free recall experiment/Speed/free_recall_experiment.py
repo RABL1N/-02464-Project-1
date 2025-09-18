@@ -1,25 +1,3 @@
-"""
-Free Recall Experiment (Tkinter, single-file)
-
-Implements: silent vs articulatory suppression vs finger tapping; chunked vs unchunked; 
-phonological similarity (similar vs dissimilar letter pools). 
-Timing per §1.8 brief:
-- Fixation 500 ms → sequence (letters 800 ms on + 200 ms blank) → retention 1000 ms → free recall entry
-- Chunked lists insert a longer inter-group gap (400 ms) every CHUNK_SIZE letters (visual cue for grouping)
-
-Logging:
-- CSV with trial-wise: participant, condition flags, list, response, n_correct, proportion_correct, 
-  phonological_confusions (simple heuristic), and timestamps
-
-Run:
-    python free_recall_experiment.py
-
-Notes:
-- Articulatory suppression: on-screen prompt to whisper "the-the-the" at ~120 BPM from fixation to end of recall.
-- Finger tapping: tap index finger to same beat; do not speak.
-- This script does not record audio; supervise to ensure compliance.
-"""
-
 import random
 import csv
 import time

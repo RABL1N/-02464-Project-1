@@ -1,20 +1,3 @@
-"""
-Serial Recall Experiment (Tkinter, single-file)
-
-Features
-- Implements the course §1.8 serial-recall design in one script
-- Choose: presentation rate (slow/fast) and post-list phase (immediate/pause/wm-task)
-- Trial flow: fixation (500 ms) → sequence (12 letters; timing by rate) → post-list phase → recall entry
-- Scoring: proportion correct-in-position; CSV logging
-- Minimal dependencies: standard library + tkinter only
-
-How to run
-$ python serial_recall_experiment.py
-
-Notes
-- "WM task" follows the brief exactly: on-screen prompt to count backwards aloud by 3s for 5 seconds. We do not record audio; the aim is to occupy rehearsal.
-- For stricter control, supervise participants to ensure they speak during the 5 s interval.
-"""
 
 import random
 import string
