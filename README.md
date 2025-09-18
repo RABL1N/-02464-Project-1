@@ -61,21 +61,25 @@ Project/
 
 #### Free Recall Experiments
 
-Format: `free_recall_[ParticipantID]_[Date].csv`
+Format: `free_recall_[ExperimentType]_[ParticipantID]_[Date].csv`
 
 Examples:
 
-- `free_recall_Rasmus_18_09.csv`
-- `free_recall_Poul_21_09.csv`
+- `free_recall_baseline_Rasmus_18_09.csv`
+- `free_recall_pause_Poul_21_09.csv`
+- `free_recall_speed_Selma_18_09.csv`
+- `free_recall_suppression_Poul_21_09.csv`
 
 #### Serial Recall Experiments
 
-Format: `serial_recall_[ParticipantID]_[Date].csv`
+Format: `serial_recall_[ExperimentType]_[ParticipantID]_[Date].csv`
 
 Examples:
 
-- `serial_recall_Rasmus_18_09.csv`
-- `serial_recall_Poul_21_09.csv`
+- `serial_recall_chunking_Rasmus_18_09.csv`
+- `serial_recall_length_Poul_21_09.csv`
+- `serial_recall_suppression_Selma_18_09.csv`
+- `serial_recall_tapping_Poul_21_09.csv`
 
 ### CSV Data Fields
 
