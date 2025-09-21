@@ -1,0 +1,21 @@
+timestamp,participant,trial_index,rate,post_phase,chunking,list_length,list_items,response,proportion_correct_in_position,per_position_binary
+2025-09-21 11:08:09,Rasmus,1,slow,immediate,True,9,LPMVBQYST,LPMVBQ,0.667,111111000
+2025-09-21 11:08:18,Rasmus,2,slow,immediate,True,9,BGTMKQSYP,BGTSYP,0.333,111000000
+2025-09-21 11:08:36,Rasmus,3,slow,immediate,True,9,TSBQLDYMP,TSBQLDSYP,0.778,111111001
+2025-09-21 11:08:50,Rasmus,4,slow,immediate,True,9,BPYQZMLTG,BPYQZMT?G,0.778,111111001
+2025-09-21 11:08:59,Rasmus,5,slow,immediate,True,9,LKPGRMYTB,LKBGRM,0.556,110111000
+2025-09-21 11:09:10,Rasmus,6,slow,immediate,True,9,DBSPVKZMG,BPSGMKZMG,0.556,001001111
+2025-09-21 11:09:26,Rasmus,7,slow,immediate,True,9,QVTPRSKLM,QVZPRS?VT,0.556,110111000
+2025-09-21 11:09:35,Rasmus,8,slow,immediate,True,9,RMSQPZBVY,RMSQPZ,0.667,111111000
+2025-09-21 11:09:48,Rasmus,9,slow,immediate,True,9,PGSMVQZDK,PRSDQTZ??,0.333,101000100
+2025-09-21 11:10:06,Rasmus,10,slow,immediate,True,9,SVPGRZBLM,PLSSVZBLM,0.444,000001111
+2025-09-21 11:10:17,Rasmus,11,slow,immediate,True,9,SRVDKGMTZ,SRVDKGS??,0.667,111111000
+2025-09-21 11:10:27,Rasmus,12,slow,immediate,True,9,PSTBLMDQY,PSTBLM???,0.667,111111000
+2025-09-21 11:10:37,Rasmus,13,slow,immediate,True,9,VPLSQYRTK,VPLSQY???,0.667,111111000
+2025-09-21 11:10:47,Rasmus,14,slow,immediate,True,9,ZKSRPVYDM,ZKSRPVY??,0.778,111111100
+2025-09-21 11:10:59,Rasmus,15,slow,immediate,True,9,DBYVGKZRT,DBYVGKY??,0.667,111111000
+2025-09-21 11:11:08,Rasmus,16,slow,immediate,True,9,QDLTSBRZP,YQLTSB???,0.444,001111000
+2025-09-21 11:11:27,Rasmus,17,slow,immediate,True,9,DSYQVKLTG,DSYKVKDSV,0.556,111011000
+2025-09-21 11:11:40,Rasmus,18,slow,immediate,True,9,LKTGRDBVP,LKTDRG???,0.444,111010000
+2025-09-21 11:11:50,Rasmus,19,slow,immediate,True,9,RDYBSKVMP,RDYBSK???,0.667,111111000
+2025-09-21 11:12:01,Rasmus,20,slow,immediate,True,9,LVDBYMZGS,DLYBMKZ??,0.222,000100100
