@@ -1,0 +1,21 @@
+timestamp,participant,trial_index,condition,similarity,chunked,list_items,response,n_correct,proportion_correct,phonological_confusions
+2025-09-21 10:50:34,Rasmus,1,suppression,mixed,0,TDYZGLQRPH,TLYQ,4,0.400,0
+2025-09-21 10:50:54,Rasmus,2,suppression,mixed,0,ZPKYMTLNRGV,TNMP,4,0.364,0
+2025-09-21 10:51:12,Rasmus,3,suppression,mixed,0,LBQZKHRTPM,QNTP,3,0.300,1
+2025-09-21 10:51:33,Rasmus,4,suppression,mixed,0,NMHPQBGRZV,QPTV,3,0.300,0
+2025-09-21 10:51:55,Rasmus,5,suppression,mixed,0,HTLZMBQKYNDP,TDP,3,0.250,0
+2025-09-21 10:52:11,Rasmus,6,suppression,mixed,0,ZTDMLQPKHB,ZTB,3,0.300,0
+2025-09-21 10:52:37,Rasmus,7,suppression,mixed,0,GZRHPKBNMYL,BMPL,4,0.364,0
+2025-09-21 10:52:57,Rasmus,8,suppression,mixed,0,HKQDYBRZLVPG,HKQPY,5,0.417,0
+2025-09-21 10:53:16,Rasmus,9,suppression,mixed,0,QTYMDKNVPH,QTYH,4,0.400,0
+2025-09-21 10:53:34,Rasmus,10,suppression,mixed,0,HGQKDNBVRPT,HGT,3,0.273,0
+2025-09-21 10:53:50,Rasmus,11,suppression,mixed,0,RLGPBHYKMDT,RLGT,4,0.364,0
+2025-09-21 10:54:40,Rasmus,12,suppression,mixed,0,BKZTLQVRYN,RLGB,3,0.300,1
+2025-09-21 10:59:52,Rasmus,13,suppression,mixed,0,MHZTBYNVDL,MHTY,4,0.400,0
+2025-09-21 11:00:08,Rasmus,14,suppression,mixed,0,TRKHLMYQBZVD,THRD,4,0.333,0
+2025-09-21 11:00:23,Rasmus,15,suppression,mixed,0,DYVQPBZMRH,DYVRH,5,0.500,0
+2025-09-21 11:00:39,Rasmus,16,suppression,mixed,0,DLGYMPVKRZQ,YMPV,4,0.364,0
+2025-09-21 11:00:58,Rasmus,17,suppression,mixed,0,MTQHPNVRBKGL,YMGL,3,0.250,0
+2025-09-21 11:01:13,Rasmus,18,suppression,mixed,0,DNBKZQMYHT,GMP,1,0.100,2
+2025-09-21 11:01:29,Rasmus,19,suppression,mixed,0,NDKRBQVGZYL,YGZ,3,0.273,0
+2025-09-21 11:01:46,Rasmus,20,suppression,mixed,0,MKGQPNBYLTH,YGZH,3,0.273,0
