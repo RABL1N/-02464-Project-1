@@ -88,7 +88,7 @@ def create_working_memory_capacity_plot(data, images_dir):
     
     return performance_by_length
 
-def create_articulatory_suppression_plot(data, images_dir):
+def create_serial_recall_comparison_plot(data, images_dir):
     """Create plot showing articulatory suppression effects."""
     # Get baseline (Tapping) and suppression data
     tapping_data = data[data['experiment_name'] == 'Tapping']
@@ -143,13 +143,13 @@ def create_articulatory_suppression_plot(data, images_dir):
     # Customize plot
     plt.xlabel('Condition', fontsize=12, fontweight='bold')
     plt.ylabel('Proportion Correct', fontsize=12, fontweight='bold')
-    plt.title('Serial recall: Effects', fontsize=14, fontweight='bold', pad=20)
+    plt.title('Serial Recall Effects', fontsize=14, fontweight='bold', pad=20)
     
     plt.ylim(0, max(means) * 1.2)
     plt.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
-    plt.savefig(images_dir / 'articulatory_suppression.png', dpi=300, bbox_inches='tight')
+    plt.savefig(images_dir / 'serial_recall_comparison.png', dpi=300, bbox_inches='tight')
     plt.show()
     
     return pd.DataFrame({'Condition': conditions, 'Mean': means, 'Std': stds})
@@ -233,7 +233,7 @@ def main():
     wm_data = create_working_memory_capacity_plot(data, images_dir)
     
     print("\nCreating Articulatory Suppression plot...")
-    as_data = create_articulatory_suppression_plot(data, images_dir)
+    as_data = create_serial_recall_comparison_plot(data, images_dir)
     
     print("\nCreating individual experiment plots...")
     create_serial_recall_individual_plots(data, images_dir)
