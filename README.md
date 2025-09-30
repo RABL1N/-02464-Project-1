@@ -13,6 +13,7 @@ Located in `Free recall experiment/` directory:
 
 Located in `Serial recall experiment/` directory:
 
+- **Baseline/**: Standard serial recall experiment (baseline condition)
 - **Chunking/**: Serial recall with chunked presentation
 - **Length/**: Serial recall with varying list lengths
 - **Suppression/**: Serial recall with articulatory suppression
@@ -50,6 +51,9 @@ Project/
 │   ├── Speed/
 │   └── Suppression/
 ├── Serial recall experiment/
+│   ├── Baseline/
+│   │   ├── serial_recall_experiment.py
+│   │   └── [CSV files]
 │   ├── Chunking/
 │   ├── Length/
 │   ├── Suppression/
@@ -76,6 +80,7 @@ Format: `serial_recall_[ExperimentType]_[ParticipantID]_[Date].csv`
 
 Examples:
 
+- `serial_recall_baseline_Rasmus_18_09.csv`
 - `serial_recall_chunking_Rasmus_18_09.csv`
 - `serial_recall_length_Poul_21_09.csv`
 - `serial_recall_suppression_Selma_18_09.csv`
