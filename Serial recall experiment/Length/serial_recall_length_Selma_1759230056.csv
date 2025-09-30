@@ -1,0 +1,21 @@
+timestamp,participant,trial_index,rate,post_phase,chunking,list_length,list_items,response,proportion_correct_in_position,per_position_binary
+2025-09-30 12:48:58,P01,1,slow,immediate,False,7,SDLGPBM,SDLGP?,0.714,1111100
+2025-09-30 12:49:12,P01,2,slow,immediate,False,6,TYGRVZ,TYRGVZ,0.667,110011
+2025-09-30 12:49:29,P01,3,slow,immediate,False,9,BPRYGSDTK,BPRGY,0.333,111000000
+2025-09-30 12:49:43,P01,4,slow,immediate,False,8,ZKVQRPMY,ZQVRPY,0.250,10100000
+2025-09-30 12:49:57,P01,5,slow,immediate,False,6,MGRYDT,MGRYDP,0.833,111110
+2025-09-30 12:50:07,P01,6,slow,immediate,False,5,RMTVL,RMTVL,1.000,11111
+2025-09-30 12:50:22,P01,7,slow,immediate,False,7,BVGZDQM,BGVZDQ,0.571,1001110
+2025-09-30 12:50:40,P01,8,slow,immediate,False,5,RBZKQ,RBZQK,0.600,11100
+2025-09-30 12:50:50,P01,9,slow,immediate,False,4,VPZK,VPZK,1.000,1111
+2025-09-30 12:51:08,P01,10,slow,immediate,False,8,MBSRTVGP,MGZRVPM,0.250,10010000
+2025-09-30 12:51:23,P01,11,slow,immediate,False,7,SDRZBQG,?????,0.000,0000000
+2025-09-30 12:51:38,P01,12,slow,immediate,False,9,YZLMDTQPG,YZLMD,0.556,111110000
+2025-09-30 12:58:49,P01,13,slow,immediate,False,8,VRPBGKMY,??????,0.000,00000000
+2025-09-30 12:59:03,P01,14,slow,immediate,False,5,BTRZQ,BTRZQ,1.000,11111
+2025-09-30 12:59:11,P01,15,slow,immediate,False,4,PRMK,PRMK,1.000,1111
+2025-09-30 12:59:30,P01,16,slow,immediate,False,5,GTQRY,GTQRY,1.000,11111
+2025-09-30 12:59:46,P01,17,slow,immediate,False,9,PBYRTKQDL,PTYRQK,0.444,101101000
+2025-09-30 13:00:02,P01,18,slow,immediate,False,9,RDQLVZMPB,RDQRL,0.333,111000000
+2025-09-30 13:00:19,P01,19,slow,immediate,False,6,RKDZVQ,RKDZQK,0.667,111100
+2025-09-30 13:00:28,P01,20,slow,immediate,False,5,PSVKY,PSVKY,1.000,11111

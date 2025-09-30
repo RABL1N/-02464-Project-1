@@ -1,0 +1,21 @@
+timestamp,participant,trial_index,rate,post_phase,chunking,list_length,list_items,response,proportion_correct_in_position,per_position_binary
+2025-09-30 13:06:54,Selma,1,slow,immediate,True,9,RKTPGZYSB,RTK???YSB,0.444,100000111
+2025-09-30 13:07:44,Selma,2,slow,immediate,True,9,SRGLMYBZK,SRGLMY???,0.667,111111000
+2025-09-30 13:08:01,Selma,3,slow,immediate,True,9,YSKPZBLVG,YSKPYGBZ?,0.444,111100000
+2025-09-30 13:08:18,Selma,4,slow,immediate,True,9,QKLSDVBZG,QKL???BZG,0.667,111000111
+2025-09-30 13:10:25,Selma,5,slow,immediate,True,9,QYZDVGBSK,?????????,0.000,000000000
+2025-09-30 13:10:39,Selma,6,slow,immediate,True,9,VQDPMSLGR,???PMSLRG,0.444,000111100
+2025-09-30 13:11:04,Selma,7,slow,immediate,True,9,VGLPSRBYD,PSYVRGBYD,0.333,000000111
+2025-09-30 13:11:19,Selma,8,slow,immediate,True,9,VQYTRSMGK,VY?TRSMGK,0.778,100111111
+2025-09-30 13:11:40,Selma,9,slow,immediate,True,9,MSQKRBZLV,???KRQL??,0.222,000110000
+2025-09-30 13:11:52,Selma,10,slow,immediate,True,9,QZSVRTGPL,???VRTGPL,0.667,000111111
+2025-09-30 13:12:04,Selma,11,slow,immediate,True,9,ZDRPQGTYL,???PQGTYL,0.667,000111111
+2025-09-30 13:12:18,Selma,12,slow,immediate,True,9,ZYLDQKMTR,ZYLDQK???,0.667,111111000
+2025-09-30 13:12:37,Selma,13,slow,immediate,True,9,GMDVYQKTZ,?????????,0.000,000000000
+2025-09-30 13:12:53,Selma,14,slow,immediate,True,9,KBRQPDYZT,???KBTQRT,0.111,000000001
+2025-09-30 13:13:06,Selma,15,slow,immediate,True,9,TQYKDVLGM,TQY???LGM,0.667,111000111
+2025-09-30 13:17:14,Selma,16,slow,immediate,True,9,RGPMLYVQK,???MLYVQK,0.667,000111111
+2025-09-30 13:17:23,Selma,17,slow,immediate,True,9,BSPMYVGQZ,BSPMYV???,0.667,111111000
+2025-09-30 13:17:46,Selma,18,slow,immediate,True,9,PRMSDYLVG,PRGSYDLVG,0.667,110100111
+2025-09-30 13:17:58,Selma,19,slow,immediate,True,9,TVSZPRLDK,TVSLGVT??,0.333,111000000
+2025-09-30 13:18:12,Selma,20,slow,immediate,True,9,RBZMPKTDL,???MPKTDL,0.667,000111111
