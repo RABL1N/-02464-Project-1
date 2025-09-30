@@ -67,9 +67,9 @@ def create_free_recall_comparison_plot(data, images_dir):
         plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01, 
                 f'{mean:.3f}', ha='center', va='bottom', fontweight='bold')
     
-    plt.xlabel('Free Recall Condition', fontsize=12, fontweight='bold')
+    plt.xlabel('Condition', fontsize=12, fontweight='bold')
     plt.ylabel('Proportion Correct', fontsize=12, fontweight='bold')
-    plt.title('Free Recall Performance Across Conditions', fontsize=14, fontweight='bold', pad=20)
+    plt.title('Free Recall Effects', fontsize=14, fontweight='bold', pad=20)
     
     plt.ylim(0, max(performance_by_experiment['mean']) * 1.2)
     plt.grid(True, alpha=0.3, axis='y')
