@@ -1,0 +1,5 @@
+Experiment,Mean Performance,Std Performance,N Trials
+Pause,0.603,0.091,40
+Baseline,0.604,0.092,40
+Speed,0.587,0.116,40
+Suppression,0.426,0.133,40
