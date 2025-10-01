@@ -1,0 +1,21 @@
+timestamp,participant,trial_index,condition,similarity,chunked,list_items,response,n_correct,proportion_correct,phonological_confusions
+2025-10-01 18:32:15,Selma,1,suppression,mixed,1,GQBZYHTKRDM,GBYTR,5,0.455,0
+2025-10-01 18:32:34,Selma,2,suppression,mixed,1,RGKVLNMDTHPY,RGKDT,5,0.417,0
+2025-10-01 18:32:54,Selma,3,suppression,mixed,1,NHMGZDQPYVBL,NHMDP,5,0.417,0
+2025-10-01 18:33:15,Selma,4,suppression,mixed,1,BDKYGPVTMRQL,BDKP,4,0.333,0
+2025-10-01 18:33:35,Selma,5,suppression,mixed,1,PBMNDLTRYZQ,PBMNR,5,0.455,0
+2025-10-01 18:34:00,Selma,6,suppression,mixed,1,BZHMYTQRGLVN,BHMYTN,6,0.500,0
+2025-10-01 18:34:18,Selma,7,suppression,mixed,1,YLHGRTDNMBP,YLGNM,5,0.455,0
+2025-10-01 18:34:34,Selma,8,suppression,mixed,1,QKZYVPRGLB,YVPRQ,5,0.500,0
+2025-10-01 18:34:50,Selma,9,suppression,mixed,1,ZNDQLKRYBM,NDLY,4,0.400,0
+2025-10-01 18:35:08,Selma,10,suppression,mixed,1,YRDKZQNBHPL,YNDRH,5,0.455,0
+2025-10-01 18:35:34,Selma,11,suppression,mixed,1,DHQNBVRLZTM,DHNYL,4,0.364,0
+2025-10-01 18:35:55,Selma,12,suppression,mixed,1,BTHVYKDRNQLZ,BTDRN,5,0.417,0
+2025-10-01 18:36:14,Selma,13,suppression,mixed,1,LHZMPYBRQKD,LHNRD,4,0.364,1
+2025-10-01 18:36:31,Selma,14,suppression,mixed,1,TPYMBKVNLZQ,TPYL,4,0.364,0
+2025-10-01 18:36:51,Selma,15,suppression,mixed,1,KHMTPDQNGBR,KHQNR,5,0.455,0
+2025-10-01 18:37:11,Selma,16,suppression,mixed,1,RDQKZBHMTNLY,RDQKT,5,0.417,0
+2025-10-01 18:37:28,Selma,17,suppression,mixed,1,NVDBKLMHZYT,NVDLH,5,0.455,0
+2025-10-01 18:37:46,Selma,18,suppression,mixed,1,RZTVLPQDKGH,RTVL,4,0.364,0
+2025-10-01 18:38:03,Selma,19,suppression,mixed,1,BKZQHPTDGY,KHPTQ,5,0.500,0
+2025-10-01 18:38:20,Selma,20,suppression,mixed,1,RGLHKPMVDNBY,RGHKM,5,0.417,0
