@@ -64,6 +64,32 @@ def create_working_memory_capacity_plot(data, images_dir):
     plt.errorbar(performance_by_length['list_length'], performance_by_length['mean'], 
                 yerr=performance_by_length['std'], fmt='none', color='steelblue', alpha=0.7)
     
+    # Fit a linear line through the points
+    from numpy import polyfit, poly1d
+    import numpy as np
+    
+    # Fit a 1st degree polynomial (linear) to the data
+    z = np.polyfit(performance_by_length['list_length'], performance_by_length['mean'], 1)
+    p = np.poly1d(z)
+    
+    # Create smooth line for the fitted curve
+    x_smooth = np.linspace(performance_by_length['list_length'].min(), 
+                          performance_by_length['list_length'].max(), 100)
+    y_smooth = p(x_smooth)
+    
+    # Plot the fitted line
+    plt.plot(x_smooth, y_smooth, '--', color='orange', linewidth=2, alpha=0.8, label='Fitted Line')
+    
+    # Calculate R² (coefficient of determination)
+    y_pred = p(performance_by_length['list_length'])
+    y_actual = performance_by_length['mean']
+    ss_res = np.sum((y_actual - y_pred) ** 2)
+    ss_tot = np.sum((y_actual - np.mean(y_actual)) ** 2)
+    r_squared = 1 - (ss_res / ss_tot)
+    
+    # Create equation string for the legend
+    equation_text = f'y = {z[0]:.3f}x + {z[1]:.3f}\nR² = {r_squared:.3f}'
+    
     # Add grid
     plt.grid(True, alpha=0.3, linestyle='--')
     
@@ -80,6 +106,11 @@ def create_working_memory_capacity_plot(data, images_dir):
     
     # Add horizontal line at 0.5 for reference
     plt.axhline(y=0.5, color='red', linestyle='--', alpha=0.5, label='50% Performance')
+    
+    # Add equation text in bottom left
+    plt.text(0.02, 0.02, equation_text, transform=plt.gca().transAxes, 
+             fontsize=10, bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.8),
+             verticalalignment='bottom')
     
     plt.legend()
     plt.tight_layout()
