@@ -1,5 +1,6 @@
 Experiment,Mean Performance,Std Performance,N Trials
-Tapping,0.365,0.126,40
-Length,0.758,0.276,40
-Chunking,0.550,0.165,40
-Suppression,0.235,0.113,40
+Tapping,0.282,0.169,60
+Length,0.709,0.303,60
+Chunking,0.530,0.196,60
+Baseline,0.451,0.133,60
+Suppression,0.193,0.134,60

@@ -89,16 +89,25 @@ def create_working_memory_capacity_plot(data, images_dir):
     return performance_by_length
 
 def create_serial_recall_comparison_plot(data, images_dir):
-    """Create plot showing articulatory suppression effects."""
-    # Get baseline (Tapping) and suppression data
+    """Create plot showing serial recall effects across all conditions."""
+    # Get all serial recall experiment data
+    baseline_data = data[data['experiment_name'] == 'Baseline']
     tapping_data = data[data['experiment_name'] == 'Tapping']
     suppression_data = data[data['experiment_name'] == 'Suppression']
     chunking_data = data[data['experiment_name'] == 'Chunking']
+    length_data = data[data['experiment_name'] == 'Length']
     
     # Calculate mean performance for each condition
     conditions = []
     means = []
     stds = []
+    
+    if not baseline_data.empty:
+        baseline_mean = baseline_data['proportion_correct_in_position'].mean()
+        baseline_std = baseline_data['proportion_correct_in_position'].std()
+        conditions.append('Baseline')
+        means.append(baseline_mean)
+        stds.append(baseline_std)
     
     if not tapping_data.empty:
         tapping_mean = tapping_data['proportion_correct_in_position'].mean()
@@ -121,14 +130,21 @@ def create_serial_recall_comparison_plot(data, images_dir):
         means.append(chunking_mean)
         stds.append(chunking_std)
     
+    if not length_data.empty:
+        length_mean = length_data['proportion_correct_in_position'].mean()
+        length_std = length_data['proportion_correct_in_position'].std()
+        conditions.append('Length')
+        means.append(length_mean)
+        stds.append(length_std)
+    
     if not conditions:
-        print("No articulatory suppression data found")
+        print("No serial recall data found")
         return
     
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(12, 6))
     
     # Create bar plot with colors for each condition
-    colors = ['steelblue', 'coral', 'lightgreen']
+    colors = ['steelblue', 'coral', 'lightgreen', 'gold', 'purple']
     bars = plt.bar(conditions, means, color=colors[:len(conditions)], 
                    alpha=0.8, edgecolor='black', linewidth=1)
     

@@ -115,7 +115,7 @@ def main():
     # Define experiment configurations
     experiments = {
         'Free recall experiment': ['Baseline', 'Pause', 'Speed', 'Suppression'],
-        'Serial recall experiment': ['Chunking', 'Length', 'Suppression', 'Tapping']
+        'Serial recall experiment': ['Baseline', 'Chunking', 'Length', 'Suppression', 'Tapping']
     }
     
     # Process each experiment type

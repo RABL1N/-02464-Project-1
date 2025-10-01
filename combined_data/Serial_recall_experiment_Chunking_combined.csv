@@ -1,4 +1,24 @@
 list_length,list_items,response,proportion_correct_in_position,per_position_binary,experiment_type,experiment_name
+9,RKTPGZYSB,RTK???YSB,0.444,100000111,Serial Recall,Chunking
+9,SRGLMYBZK,SRGLMY???,0.667,111111000,Serial Recall,Chunking
+9,YSKPZBLVG,YSKPYGBZ?,0.444,111100000,Serial Recall,Chunking
+9,QKLSDVBZG,QKL???BZG,0.667,111000111,Serial Recall,Chunking
+9,QYZDVGBSK,?????????,0.0,0,Serial Recall,Chunking
+9,VQDPMSLGR,???PMSLRG,0.444,111100,Serial Recall,Chunking
+9,VGLPSRBYD,PSYVRGBYD,0.333,111,Serial Recall,Chunking
+9,VQYTRSMGK,VY?TRSMGK,0.778,100111111,Serial Recall,Chunking
+9,MSQKRBZLV,???KRQL??,0.222,110000,Serial Recall,Chunking
+9,QZSVRTGPL,???VRTGPL,0.667,111111,Serial Recall,Chunking
+9,ZDRPQGTYL,???PQGTYL,0.667,111111,Serial Recall,Chunking
+9,ZYLDQKMTR,ZYLDQK???,0.667,111111000,Serial Recall,Chunking
+9,GMDVYQKTZ,?????????,0.0,0,Serial Recall,Chunking
+9,KBRQPDYZT,???KBTQRT,0.111,1,Serial Recall,Chunking
+9,TQYKDVLGM,TQY???LGM,0.667,111000111,Serial Recall,Chunking
+9,RGPMLYVQK,???MLYVQK,0.667,111111,Serial Recall,Chunking
+9,BSPMYVGQZ,BSPMYV???,0.667,111111000,Serial Recall,Chunking
+9,PRMSDYLVG,PRGSYDLVG,0.667,110100111,Serial Recall,Chunking
+9,TVSZPRLDK,TVSLGVT??,0.333,111000000,Serial Recall,Chunking
+9,RBZMPKTDL,???MPKTDL,0.667,111111,Serial Recall,Chunking
 9,TZQYBVLGR,??????LQR,0.222,101,Serial Recall,Chunking
 9,KMZVSQYGR,KMZ???VQR,0.444,111000001,Serial Recall,Chunking
 9,VKMRTPQBZ,VKMRTP???,0.667,111111000,Serial Recall,Chunking
